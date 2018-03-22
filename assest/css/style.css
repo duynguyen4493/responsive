@@ -1,0 +1,74 @@
+body {
+	background: url('../image/background.jpg');	
+	color: black;
+	padding: 0;
+	margin: 0;	
+}
+.header {
+	height: 10%;
+}
+div.wrap>div, div.wrap div.container>div  {
+	background:  #80bfff !important;
+	text-align: left;
+}
+.brand {
+	width: 21%;	
+	float: left;
+	margin: .5em;
+}
+.tools {
+	width: 21%;
+	margin: .5em;
+	float: right;
+}
+.global_now {
+	width: 50%;
+	float: left;
+	margin: .5em 2em;
+}
+.clear {
+	clear: both;
+}
+div.wrap div div {
+	background: #e6f2ff;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+}
+div.wrap div div.ad, div.wrap div .ad_iphone {
+	background: #66b0ff;
+	text-align: left;
+}
+
+@media all and (max-width: 480px) {
+ 	.brand {
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+ 	.global_now {
+ 		width: 55%;
+ 		margin: .5em;
+ 	}
+ 	.tools {
+ 		width: 38%;
+ 		margin: .5em;
+ 		float: right;
+ 	}
+ 	.hero_feature, .hero_call_to_action {
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+ 	.sidebar_child, .aricle_feature, .aricle_listing {
+ 		float: left;
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+ 	.ad {
+ 		display: none;
+ 	}
+ 	.ad_iphone {
+ 		float: left;
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+}
