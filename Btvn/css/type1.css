@@ -1,0 +1,95 @@
+.box1, .box2, .box3, .box4 {
+	box-sizing: border-box;
+}
+.box1 {
+		height: 235px;
+}
+.box-1, .box-2, .box-3, .box-4 {
+	width: 96%;
+	margin: 5px 2%;
+}
+.box-1 {
+	float: left;
+	background: #bd5617;
+	height: 100px;
+}
+.box-2 {
+	background: #bfbb16;
+}
+.box-3 {
+	background: #6d79d6;
+}
+.box-4 {
+	float: left;
+	background: #b594ab;
+	height: 100px;
+}
+@media only screen
+and (max-device-width: 480px) {
+	.box2 {
+		height: 180px;
+	}
+	.box-2 {
+		height: 160px;
+	}
+	.box3 {
+		height: 930px;
+	}
+	.box-3 {
+		height: 300px;
+	}
+}
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 768px) {
+	.box2 {
+		height: 220px;
+	}
+	.box-2 {
+		height: 200px;
+	}
+	.box-3 {
+		height: 120px;
+	}
+	.box-4 {
+		width: 46%;
+	}
+}
+@media only screen
+and (min-device-width: 768px) {
+	.box1 {
+		height: 120px;
+	}
+	.box-1 {
+		float: left;
+		width: 46%;
+	}
+	.box2 {
+		height: 260px;
+	}
+	.box-2 {
+		height: 250px;
+	}
+	.box3 {
+		height: 225px;
+	}
+	.box-3 {
+		width: 30%;
+		height: 200px;
+		float: left;
+		margin-top: 10px;
+	}
+	#box3-1 {
+		margin-left: 2%;
+	}
+	#box3-2 {
+		margin: 10px 1%;
+	}
+	#box3-3 {
+		float: right;
+		margin-right: 2%;
+	}
+	.box-4 {
+		width: 21%;
+	}
+}
