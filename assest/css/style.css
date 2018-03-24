@@ -21,7 +21,7 @@ div.wrap>div, div.wrap div.container>div  {
 	margin: .5em;
 	float: right;
 }
-.global_now {
+.global_nav {
 	width: 50%;
 	float: left;
 	margin: .5em 2em;
@@ -29,9 +29,9 @@ div.wrap>div, div.wrap div.container>div  {
 .clear {
 	clear: both;
 }
-div.wrap div div {
+div.wrap div>div {
 	background: #e6f2ff;
-	border: 1px solid #000;
+	border: .5px solid #fff;
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -45,7 +45,7 @@ div.wrap div div.ad, div.wrap div .ad_iphone {
  		width: 97%;
  		margin: .5em;
  	}
- 	.global_now {
+ 	.global_nav {
  		width: 55%;
  		margin: .5em;
  	}
@@ -71,4 +71,10 @@ div.wrap div div.ad, div.wrap div .ad_iphone {
  		width: 97%;
  		margin: .5em;
  	}
+ 	.sidebar {
+ 		display: none;
+ 	}
+}
+div.wrap>div>p {
+	margin: 5px 0;
 }
