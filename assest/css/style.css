@@ -5,52 +5,77 @@ body {
 	margin: 0;	
 }
 .header {
-	height: 10%;
+	min-height: 10%;
 }
-div.wrap>div, div.wrap div.container>div  {
-	background:  #80bfff !important;
+.hero {
+	min-height: 15%;
+	margin: 1em;
+}
+.ad {
+	min-height: 15%;
+	margin: 1em;
+	background: 
+}
+.body {
+	height: inherit;
+	/*height: 150px;*/
+	min-height: 45%;
+}
+.sidebar {
+	min-height: 15%;
+}
+.footer {
+	min-height: 10%;
+}
+div.wrap div {
+	background:  #80bfff;
 	text-align: left;
 }
 .brand {
-	width: 21%;	
+	width: 20%;	
 	float: left;
 	margin: .5em;
 }
 .tools {
-	width: 21%;
+	width: 20%;
 	margin: .5em;
 	float: right;
 }
 .global_nav {
-	width: 50%;
+	width: 48%;
 	float: left;
 	margin: .5em 2em;
 }
 .clear {
 	clear: both;
 }
+.hero_feature, .hero_call_to_action {
+	margin: .5em;
+}
 div.wrap div>div {
 	background: #e6f2ff;
 	border: .5px solid #fff;
 	box-sizing: border-box;
 	text-align: center;
+	margin: 0.5em;
 }
 div.wrap div div.ad, div.wrap div .ad_iphone {
 	background: #66b0ff;
 	text-align: left;
 }
-
-@media all and (max-width: 480px) {
+@media only screen
+  and (min-device-width: 360px) 
+  and (max-device-width: 480px) {
  	.brand {
- 		width: 97%;
+ 		width: 20%;
  		margin: .5em;
  	}
  	.global_nav {
- 		width: 55%;
+ 		width: 50%;
  		margin: .5em;
  	}
  	.tools {
- 		width: 38%;
+ 		width: 20%;
  		margin: .5em;
  		float: right;
  	}
@@ -58,7 +83,12 @@ div.wrap div div.ad, div.wrap div .ad_iphone {
  		width: 97%;
  		margin: .5em;
  	}
- 	.sidebar_child, .aricle_feature, .aricle_listing {
+ 	.aricle_feature {
+ 		float: left;
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+ 	.aricle_listing {
  		float: left;
  		width: 97%;
  		margin: .5em;
@@ -75,6 +105,67 @@ div.wrap div div.ad, div.wrap div .ad_iphone {
  		display: none;
  	}
 }
-div.wrap>div>p {
-	margin: 5px 0;
+div.wrap>div {
+	margin: -1em 0;
+}
+@media only screen
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+ 	.brand {
+ 		width: 20%;
+ 		margin: .5em;
+ 	}
+ 	.global_nav {
+ 		width: 53%;
+ 		margin: .5em;
+ 	}
+ 	.tools {
+ 		width: 20%;
+ 		margin: .5em;
+ 		float: right;
+ 	}
+ 	.hero_feature, .hero_call_to_action {
+ 		width: 97%;
+ 		margin: .5em;
+ 	}
+ 	.aricle_feature {
+ 		float: left;
+ 		width: 60%;
+ 		margin: 1.5em;
+ 	}
+ 	.aricle_listing {
+ 		float: left;
+ 		width: 98%;
+ 		margin: .5em;
+ 		height: 150px;
+ 	}
+ 	.ad {
+ 		display: none;
+ 	}
+ 	.ad_iphone {
+ 		float: right;
+ 		width: 30%;
+ 		margin: .5em 0;
+ 		height: 70px;
+ 	}
+ 	.sidebar_child {
+ 		margin: .5em;
+ 	}
+}
+@media screen and (min-width: 1024px) {
+	.ad_iphone {
+		display: none;
+	}
+	.hero {
+		float: left;
+ 		width: 60%;
+ 		/*height: 150px;*/
+	}
+	.ad {
+		display: block;
+		float: left;
+		width: 30%;
+		margin: 1em;
+		background: 
+	}
 }
