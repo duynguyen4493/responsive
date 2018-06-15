@@ -1,0 +1,37 @@
+* {
+	margin: 5px;
+	padding: 0;
+}
+.container {
+	background-color: #ccc;
+}
+.alert {
+	background-color: #442121;
+	font-size: 20px;
+	color: yellow;
+}
+thead, tbody, th, td {
+	border: solid 1px #792101;
+	
+}
+td {
+	color: #fd6408;
+}
+td>p, th>p {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 45px;
+}
+#avatar {
+	border: solid 1px #000;
+	width: 120px;
+	height: 120px;
+}
+.btn {
+	margin-top: 20px;
+	float: left;
+}
+.search {
+	margin-top: 5em;
+	margin-left: 25%;
+}

@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	background-color: #ccc;
+}
+.alert {
+	background-color: #442121;
+	font-size: 20px;
+	color: yellow;
+}
+tbody>tr>td#avatar {
+	width: 60px;
+	height: 60px;
+}
